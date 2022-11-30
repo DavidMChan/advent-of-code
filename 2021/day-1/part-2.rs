@@ -6,11 +6,8 @@ fn main() {
     let filename = env::args().nth(1).expect("No filename given");
     let contents = fs::read_to_string(filename).expect("Could not read file");
 
-    // Split the file into lines
-    let lines: Vec<&str> = contents.split_whitespace().collect();
-
     // Each line is an integer, so parse it
-    let numbers: Vec<i32> = lines.iter().map(|x| x.parse().unwrap()).collect();
+    let numbers: Vec<i32> = contents.split_whitespace().map(|x| x.parse().unwrap()).collect();
 
     // Count the number of increases in the file
     let mut num_increases = 0;
