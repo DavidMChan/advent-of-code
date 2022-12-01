@@ -32,7 +32,6 @@ fn main() {
     }
 
     // Print the sum of the largest three groups
-    let mut sum = sum;
     sum.sort();
     sum.reverse();
     println!("{}", sum[0] + sum[1] + sum[2]);
