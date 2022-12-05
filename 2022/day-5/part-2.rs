@@ -54,7 +54,7 @@ fn parse_stacks(input: &str) -> (StackSet, Vec<(usize, usize, usize)>) {
                     // We need to add a new stack
                     stacks.stacks.push(Vec::new());
                 }
-                // The middle character is not a space, so it's a disk
+                // The middle character is not a space, so it's a box
                 stacks.stacks[index].push(c[1]);
             }
         }
