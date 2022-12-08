@@ -1,0 +1,18 @@
+mkdir test
+mkdir object
+cd object
+mkdir something
+cd something
+touch test.txt 128
+cd ..
+touch another.txt 128
+touch test.txt 128
+mkdir bob
+ls
+cd test
+mkdir every
+touch test.txt 128
+cd every
+touch test.txt 128
+cd /
+ls
