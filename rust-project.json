@@ -1,0 +1,320 @@
+{
+    "sysroot_src": "/Users/davidchan/.rustup/toolchains/stable-aarch64-apple-darwin/lib/rustlib/src/rust/library",
+    "crates": [
+        {
+            "root_module": "2022/day-0/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-0/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-1/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-1/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-2/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-2/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-3/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-3/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-4/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-4/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-5/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-5/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-6/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-6/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-7/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-7/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-7/part-1-tree.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-8/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-8/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-9/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-9/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-10/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-10/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-11/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-11/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-12/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-12/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-13/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-13/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-14/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-14/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-15/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-15/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-16/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-16/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-17/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-17/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-18/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-18/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-19/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-19/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-20/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-20/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-21/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-21/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-22/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-22/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-23/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-23/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-24/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-24/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-25/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-25/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-26/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-26/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-27/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-27/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-28/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-28/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-29/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-29/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-30/part-1.rs",
+            "edition": "2021",
+            "deps": []
+        },
+        {
+            "root_module": "2022/day-30/part-2.rs",
+            "edition": "2021",
+            "deps": []
+        }
+    ]
+}
