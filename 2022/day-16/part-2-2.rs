@@ -119,14 +119,22 @@ fn main() {
 
     // Determine the most pressure that can be released by wandering around the graph
     let mut terminated = vec![0; valves.len()];
+    let mut terminated_solns = vec![None; valves.len()];
     let mut options = VecDeque::with_capacity(500);
     options.push_back((
-        30,
+        26,
         HashSet::new(),
         0,
         *valve_map.get(&"AA".to_string()).unwrap(),
     )); // 30 minutes, no open valves, 0 pressure released, at location 0
     let mut explored = 0;
+
+    // NOTE: The best the human can do in 26 minutes is 1290, opening valves ["YR", "QW", "DZ", "JB", "OO", "BH", "DW", "CA"]
+    let human_filtered_valves = vec!["YR", "QW", "DZ", "JB", "OO", "BH", "DW", "CA"];
+    let human_filtered_valves = human_filtered_valves
+        .iter()
+        .map(|valve| *valve_map.get(&valve.to_string()).unwrap())
+        .collect::<HashSet<usize>>();
 
     // We should always be moving towards a valve or opening it
     while !options.is_empty() {
@@ -152,6 +160,10 @@ fn main() {
                 if valves[i].1 == 0 {
                     continue;
                 }
+                // If the human has already opened this valve, then we don't need to bother going to this node
+                if human_filtered_valves.contains(&i) {
+                    continue;
+                }
 
                 let mut open_valves = current_location.1.clone();
                 open_valves.insert(i);
@@ -172,6 +184,9 @@ fn main() {
             // We have reached a terminal state
             terminated[current_location.3] =
                 std::cmp::max(terminated[current_location.3], current_location.2);
+            if terminated[current_location.3] == current_location.2 {
+                terminated_solns[current_location.3] = Some(current_location.clone());
+            }
         }
 
         // Print the maximum value of the terminated states
@@ -192,14 +207,30 @@ fn main() {
     }
 
     let mut max_terminated = 0;
+    let mut max_index = 0;
     for i in 0..terminated.len() {
         max_terminated = std::cmp::max(max_terminated, terminated[i]);
+        if max_terminated == terminated[i] {
+            max_index = i;
+        }
     }
     println!(
         "Explored: {}, Max: {}, QL: {}",
         explored,
         max_terminated,
         options.len()
+    );
+
+    // Print the valves in the best solution
+    println!(
+        "Best Solution: {:?}",
+        terminated_solns[max_index]
+            .as_ref()
+            .unwrap()
+            .1
+            .iter()
+            .map(|i| valves[*i].0.clone())
+            .collect::<Vec<String>>()
     );
 
     // println!("Released: {}", pressure_released);
